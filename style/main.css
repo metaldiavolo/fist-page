@@ -1,0 +1,1020 @@
+@media screen and (min-width: 700px) {
+
+    /* --- main settings start --- */
+
+    body {
+        font: 400 18px/28px 'Inter', sans-serif;
+        background-color:  #EFEFF2;
+        color: #19191C;
+        margin: 0;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    ul { 
+        list-style: none;
+    }
+    /* --- main settings end ---*/
+
+
+    /* --- animation start --- */
+
+    a:hover {
+        color: #4141b6;
+        transition: 0.7s ease-in-out;
+    }
+
+    a:active, a:focus {
+        color: #b041b6;
+    }
+
+    .free-link:hover {
+        color: #000000;
+        font-size: 19px;
+        transition: 0.7s ease-in-out;
+    }
+
+    .link:hover {
+        background-color: #000000;
+        color: #EFEFF2;
+        padding: 12px 26px;  
+        transition: 0.7s ease-in-out;
+    }
+
+    .footer__link:hover, .logo__footer:hover, .footer__contat-link:hover {
+        color: #6D6D77;
+    }
+
+    .courses__item:hover{
+        transform: scale(110%);
+        transition-duration: 0.5s;
+        animation-timing-function: ease-in-out;
+    }
+
+    .lifelong__button:hover {
+        background-color: #000000;
+        color: #EFEFF2;
+        padding: 2px 48px;  
+        transition: 0.7s ease-in-out;
+    }
+
+    .lifelong__more:hover {
+        font-size: 20px;
+        color: #000000;
+        transition: 0.7s ease-in-out;
+    }
+
+    .see-more__img:hover {
+        transform: scale(110%);
+        transition-duration: 0.7s;
+        animation-timing-function: ease-in-out;
+    }
+
+    .headear-button:hover {
+        background-color: #4141b6;
+        color: #EFEFF2;
+        padding: 14px 48px; 
+        transition: 0.7s ease-in-out;
+    }
+
+    .find__button:hover {
+        background-color: #4141b6;
+        color: #EFEFF2;
+        padding: 14px 48px; 
+        width: 200px;
+        transition: 0.7s ease-in-out;
+    }
+
+    .find__button:focus {
+        background-color: #4141b6;
+        color: #EFEFF2;
+        padding: 14px 48px; 
+        width: 200px;
+    }
+
+    .courses__button:hover, .profession__button:hover {
+        background-color: #000000;
+        color: #EFEFF2;
+        padding: 18px 46px;  
+        transition: 0.7s ease-in-out;
+    }
+
+    /* --- animation end --- */
+
+
+    /* ---  page position start ---*/
+
+
+    .container {
+        max-width: 1440px;
+        margin: 0 auto;
+        list-style: none;
+    }
+
+
+    .wapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box {
+        margin-top: 48px;
+        margin-bottom: 48px;
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+        padding: 20px;
+    }
+
+    /*--- page position end -- */
+
+
+
+    /*--- headear start ---*/
+
+    .headear {
+        padding: 15px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .headear__box {
+        display: flex;
+        align-items: center;
+        gap: 68px;
+        flex-wrap: wrap;
+    }
+
+    .nav__list {
+        display: flex;
+        gap: 48px;
+        padding: 0;
+        margin: 0;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 600;
+        color: #19191C;
+        flex-wrap: wrap;
+    }
+
+    .link {
+        color: #19191C;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 600;
+    }
+
+    .headear-button {
+        background-color: #19191C;
+        color: #EFEFF2;
+        padding: 12px 37px;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 700;
+    }
+
+    .btn-box {
+        display: flex;
+        gap: 48px;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .logo {
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        color: #19191C;
+        flex-wrap: wrap;
+    }
+    /*--- headear end ---*/
+
+
+    /* --- footer start --- */
+
+    .footer {
+        background-color: #19191C;
+        color: #FBFBFC;
+    }
+
+    .footer__box {
+        display: flex;
+        gap: 68px;
+        margin-top: 10px;
+        margin-right: 100px;
+        margin-left: 100px; 
+        margin-bottom: 50px; 
+        justify-content: space-between;
+        opacity: 0px;
+        flex-wrap: wrap;
+
+    }
+
+    .footer__contacts {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 40px;
+        gap: 25px;
+        font-size: 24px;
+        line-height: 29px;
+        font-weight: 600;
+    }
+
+    .footer__link {
+        color: #EFEFF2;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 400;
+    }
+
+    .sitemap {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        margin: 14 auto 0 0;
+        flex-wrap: wrap;
+    }
+
+    .sitemap__title {
+        color: #FBFBFC;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 600;
+        margin-bottom: 14px;
+    }
+
+    .sitemap__list, .footer__link {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+        padding: 0;
+        color: #EFEFF2;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 400;
+    }
+
+    .logo__footer {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        font-size: 18px;
+        line-height: 21px;
+        font-weight: 800;
+        flex-wrap: wrap;
+    }
+
+    .footer__contat-link, .logo__footer {
+        color: #FBFBFC;
+    }
+
+    .copyright {
+        color: #6D6D77;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 14px;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+
+    .copyright__link {
+        color: #6D6D77;
+    }
+    /* --- footer end --- */
+
+
+
+    /* --- courses section  start ---*/
+
+    .courses {
+        margin-top: 48px;
+        margin-bottom: 0;
+        display: flex;
+        justify-content: space-between;
+        background: url(../img/bisnesman.png) 100% 100% no-repeat;
+        background-size: 55%;
+        flex-wrap: wrap;
+        padding: 15px;
+    }
+
+    .courses__text {
+        width: 648px;
+        background: url(../img/png1.png) no-repeat;
+        background-size: 80%;
+        background-position: right 190px bottom 90px;
+    }
+
+    .courses__title {
+        margin-top: 48px;
+        color: #19191C;
+        font-size: 58px;
+        line-height: 70px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    .courses__button, .profession__button {
+        background-color: #504DEE;
+        color: #FBFBFC;
+        border: none;
+        padding: 12px 37px;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 700;
+    }
+
+    .courses__description {
+        margin-top: 0;
+        margin-bottom: 50px;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 400;
+    }
+
+    .free-link {
+        color: #504DEE;
+        font-weight: 700;
+    }
+
+    .sale__numbers {
+        margin-bottom: 96px;
+    }
+
+    .courses__sale, .profession__sale {
+        margin-top: 48px;
+        margin-bottom: 0;
+        font-size: 58px;
+        line-height: 70px;
+        font-weight: 700;
+    }
+    .courses__time, .profession__time {
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 700;
+    }
+
+    .courses__holder, .profession__holder {
+        align-self: flex-start;
+        padding: 0;
+        margin: 0;
+        position: relative;
+    }
+
+    .courses__list, .profession__list {
+        padding: 0;
+        margin: 0;
+        flex-grow: 1;
+        position: relative;
+    }
+
+    .courses__item {
+        position: absolute;
+        border: 2px solid #19191C;
+        padding: 16px 36px;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 22px;
+    }
+
+    .courses__marketer {
+        top: 20px;
+        right: 20px;
+    }
+
+    .courses__illustrator {
+        top: -10px;
+        right: 220px;
+    }
+
+    .courses__animator {
+        top: 60px;
+        right: 420px;
+    }
+
+    .courses__programer {
+        top: 200px;
+        right: 520px;
+    }
+
+    .courses__desinger {
+        top: 340px;
+        right: 600px;
+    }
+
+    .courses__photographer {
+        top: 480px;
+        right: 520px;
+    }
+
+    /* --- courses section end ---*/
+
+
+
+    /* --- profession section in courses start--- */
+
+    .profession {
+        margin-top: 48px;
+        margin-bottom: 0;
+        display: flex;
+        justify-content: space-between;
+        background: url(../img/bisneswoman.png) 100% 100% no-repeat;
+        background-size: 40%;
+        flex-wrap: wrap;
+    }
+
+    .profession__text {
+        width: 648px;
+        background: url(../img/png1.png) no-repeat;
+        background-size: 80%;
+        background-position: right 150px bottom 190px;
+    }
+
+    .teaching__term {
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 700;
+        text-decoration-line: underline;
+        text-decoration-color: #504DEE;
+        text-decoration-thickness: 4px;
+        text-underline-offset: 4px;
+        margin-bottom: 34px;
+    }
+
+    .profession__title {
+        color: #19191C;
+        font-size: 58px;
+        line-height: 70px;
+        font-weight: 700;
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+
+    .profession__name {
+        margin-bottom: 4px;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 400;
+    }
+
+    .profession__description {
+        margin-top: 30;
+        width: 620px;
+        margin-bottom: 50px;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 400;
+    }
+
+    .profession__inv {
+        top: 60px;
+        right: 100px;
+    }
+
+    .profession__prop {
+        top: 20px;
+        right: 300px;
+    }
+
+    .profession__miro {
+        top: 100px;
+        right: 500px;
+    }
+
+    .profession__ps {
+        top: 220px;
+        right: 530px;
+    }
+
+    .profession__figma {
+        top: 340px;
+        right: 700px;
+    }
+
+    .profession__ills {
+        top: 480px;
+        right: 680px;
+    }
+
+    /* --- profession section in courses end --- */
+
+
+    /* --- learn section start --- */
+
+    .learn {
+        background-color: #19191C;
+        color: #FBFBFC;
+    }
+
+    .learn__box {
+        margin-top: 48px;
+        margin-bottom: 96px;
+        display: flex;
+        flex-direction: row;
+        gap: 0;
+        padding: 20px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .learn__text {
+        width: 588px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+
+    .learn__title {
+        margin-bottom: 18px;
+        font-size: 58px;
+        line-height: 70px;
+        font-weight: 700;
+    }
+
+    .learn__description {
+        margin-top: 18px;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 400;
+    }
+
+    .learn__price {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: static;
+        flex-wrap: wrap;
+    }
+
+    .learn__price-item {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: relative;
+        align-items: left;
+        gap: 0;
+        padding: 0;
+        flex-wrap: wrap;
+    }
+
+    .learn__price-numder {
+        font-size: 58px;
+        line-height: 70px;
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+
+    .learn__price-namedescription {
+        margin-top: 0;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 400;
+    }
+
+    .learn__price-block {
+        position: relative;
+        padding: 28px 38px 0;
+        top: -40px;
+        align-items: left;
+    }
+
+    .line {
+        border-bottom: 4px solid #FBFBFC;
+        padding: 18px 0;
+        width: 157px;
+    }
+
+    /* --- learn section end --- */
+
+
+
+    /* ---  lifelong section start --- */
+
+    .lifelong, .designer, .discover {
+        background-color: #FBFBFC;
+    }
+
+    .lifelong__box {
+        margin-top: 96px;
+        margin-bottom: 96px;
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+        padding: 20px;
+    }
+
+    .lifelong__title {
+        font-size: 58px;
+        line-height: 70px;
+        font-weight: 700;
+        width: 500px;
+    }
+
+    .lifelong-nav__list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .lifelong__list {
+        display: flex;
+        flex-direction: row;
+        gap: 48px;
+        padding: 0;
+        margin: 0;
+        flex-wrap: wrap;
+    }
+
+    .lifelong__button {
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 400;
+        color: #19191C;
+        background-color: #FBFBFC;
+        border: none;
+    }
+
+    .lifelong__more {
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 700;
+        color: #19191C;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .see-more__img {
+        width: 28px;
+    }
+
+    .lifelong__cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .lifelong__card-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .lifelong__card-title {
+        font-size: 24px;
+        line-height: 26px;
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+
+    .lifelong__card-description {
+        margin-top: 8px;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 400;
+        color: #6D6D77;
+    }
+
+    /* --- lifelong section end --- */
+
+
+    /* --- designer section in courses start --- */
+
+    .designer__one {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 28px;
+    }
+
+    .designer__text {
+        width: 588px;
+    }
+
+    .designer__title {
+        font-size: 58px;
+        line-height: 70px;
+        font-weight: 700;
+        color: #19191C;
+    }
+
+    .designer__description {
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 400;
+        color: #6D6D77;
+    }
+
+    .designer__price {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 68px;
+    }
+
+    .desingner__price-item {
+        width: 350px;
+    }
+
+    .desingner__price-numder {
+        font-size: 58px;
+        line-height: 70px;
+        font-weight: 700;
+        color: #19191C;
+        margin-bottom: 0;
+    }
+
+    .desingner__price-namedescription {
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 400;
+        color: #19191C;
+        margin-top: 0;
+    }
+
+    .desingner__price-description {
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 400;
+        color: #6D6D77;
+        margin-top: 0;
+    }
+
+    .newline {
+        border-bottom: 4px solid #19191C;
+        padding: 18px 0;
+        width: 254px;
+    }
+
+    .infoline {
+        border-bottom: 4px solid #19191C;
+        padding: 18px 0;
+        width: 368px;
+    }
+
+    .designer__info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 18px;
+        margin-top: 98px;
+    }
+
+    .designer__box {
+        width: 466px;
+        height: 329px;
+        padding: 36px;
+    }
+
+    .red {
+        background-color: #EFDEEE;
+    }
+
+    .yelow {
+        background-color: #F3F3D7;
+    }
+
+    .designer__title-info {
+        font-size: 34px;
+        line-height: 41px;
+        font-weight: 700;
+        color: #19191C;
+    }
+
+
+    .desingner__description {
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 400;
+        color: #19191C;
+        margin-top: 0;
+    }
+
+
+    /* --- designer section in courses start --- */
+
+
+    /* --- discover section in courses start --- */
+
+    .discover__list {
+        list-style-type: square;
+
+    }
+
+    .green {
+        background-color: #DEEFE4;
+    }
+
+    .white {
+        color: #FBFBFC;
+    }
+
+    .blue {
+        background-color: #504DEE;
+    }
+
+    .discover__title {
+        margin-bottom: 18px;
+        font-size: 58px;
+        line-height: 70px;
+        font-weight: 700;
+        width: 400px;
+    }
+
+    .discover__choice {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 18px;
+        padding: 0;
+    }
+
+    .discover__choice-box {
+        padding: 36px;
+        width: 467px;
+        height: 732px;
+    }
+
+    .discover-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0;
+        gap: 0px;
+    }
+
+    .title-list {
+        margin-bottom: 68px;
+        height: 300px;
+    }
+
+    .discover__title-box {
+        font-size: 34px;
+        line-height: 40px;
+        font-weight: 700;
+        margin: 48px;
+        padding: 0;
+    }
+
+    .discover__list-box, .discover__list {
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 400;
+        margin: 28px;
+    }
+
+    .discover-square {
+        margin-bottom: 18px;
+    }
+
+    .discover__price-top {
+        color: #6D6D77;
+        font-size: 24px;
+        line-height: 28px;
+        font-weight: 700;
+    }
+
+    .discover__price-top-white {
+        color: #EFEFF2;
+        font-size: 24px;
+        line-height: 28px;
+        font-weight: 700;
+    }
+
+    .discover__price-bottom {
+        font-size: 58px;
+        line-height: 28px;
+        font-weight: 700;
+        margin-top: 0;
+        margin-bottom: 48px;
+    }
+
+    .prices-discover {
+        margin-top: 100px;
+        flex-direction: row;
+        position: absolute;
+        margin-left: 48px;
+    }
+
+    .discover__button {
+        background-color: #19191C;
+        color: #EFEFF2;
+        padding: 12px 37px;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 700;
+        border: none;
+        width: 150px;
+        margin-top: 0;
+    }
+
+    .discover__button-white {
+        background-color: #FBFBFC;
+        color: #504DEE;
+        padding: 12px 37px;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 700;
+        border: none;
+        width: 150px;
+        margin-top: 0;
+    }
+
+    /* --- discover section in courses end --- */
+
+
+
+    /* --- find section start --- */
+
+    .find {
+        background-color: #DEEFE4;
+    }
+
+    .find__box {
+        margin-top: 48px;
+        margin-bottom: 96px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 28px;
+        padding: 20px;
+        flex-wrap: wrap;
+    }
+
+    .find__right {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: left;
+        gap: 0;
+        padding: 0;
+        margin-top: 48px;
+        right: 48px;
+        width: 710px;
+    }
+
+    .find__title {
+        margin-top: 48px;
+        margin-bottom: 18px;
+        font-size: 58px;
+        line-height: 70px;
+        font-weight: 700;
+        width: 600px;
+    }
+
+    .find__description {
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 400;
+    }
+
+    .find__form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 28px;
+        color: #19191C;
+    }
+
+    input[type=text], input[type=email] {
+        background-color: #DEEFE4;
+        color: #19191C;
+        border-top: none;
+        border-left: none;
+        border-right: none ;
+        border-bottom: 2px solid #19191C;
+        padding: 16px 20px;
+        width: 100%;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 400;
+    }
+
+    .find__button {
+        background-color: #19191C;
+        color: #EFEFF2;
+        padding: 12px 37px;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 700;
+        border: none;
+        width: 150px;
+        margin-bottom: 6px;
+    }
+
+    /* --- find end --- */ 
+}
